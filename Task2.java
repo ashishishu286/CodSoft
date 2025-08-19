@@ -17,6 +17,7 @@ public class Task2 {
         double percentage = (double) total / n;
         String grade;
 
+        //Grades
         if (percentage >= 90) grade = "A+";
         else if (percentage >= 80) grade = "A";
         else if (percentage >= 70) grade = "B";
@@ -31,3 +32,4 @@ public class Task2 {
         sc.close();
     }
 }
+
